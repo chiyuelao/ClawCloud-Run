@@ -19,10 +19,9 @@
 | --- | --- |
 | `GH_USERNAME` | GitHub 用户名 |
 | `GH_PASSWORD` | GitHub 密码 |
-| `GH_SESSION` | Cookie 不用添加自动存储（需设置`REPO_TOKEN`配置） |
 | `TG_BOT_TOKEN` | Telegram Bot Token |
 | `TG_CHAT_ID` | Telegram Chat ID |
-| `REPO_TOKEN` | GitHub Token（用于自动更新 Secret） |
+| `REPO_TOKEN` | GitHub Personal Access Token (自动更新 Cookie) |
 
 ## 流程图
 ```
